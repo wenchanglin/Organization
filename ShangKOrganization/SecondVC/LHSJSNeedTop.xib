@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="vMD-82-vqD" customClass="LHSJSNeedTop">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5EU-kV-XqG">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                    <subviews>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifD-Pe-kzu">
+                            <rect key="frame" x="277" y="0.0" width="137" height="40"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="Duv-WB-nBQ"/>
+                                <constraint firstAttribute="width" constant="133" id="PKL-lZ-M9J"/>
+                                <constraint firstAttribute="width" constant="133" id="fDp-3k-Ys7"/>
+                            </constraints>
+                            <state key="normal" title="课程咨询">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="PKL-lZ-M9J"/>
+                                    <exclude reference="fDp-3k-Ys7"/>
+                                </mask>
+                            </variation>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1W-71-oMo">
+                            <rect key="frame" x="1" y="0.0" width="137" height="40"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="SeH-Rt-as0"/>
+                                <constraint firstAttribute="width" constant="133" id="omF-p8-s3j"/>
+                            </constraints>
+                            <state key="normal" title="群组">
+                                <color key="titleColor" red="0.11372549019607843" green="0.47450980392156861" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="omF-p8-s3j"/>
+                                </mask>
+                            </variation>
+                        </button>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCz-DS-KCh">
+                            <rect key="frame" x="139" y="0.0" width="137" height="40"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="133" id="X23-hc-RMm"/>
+                                <constraint firstAttribute="height" constant="40" id="t3s-6O-RD1"/>
+                            </constraints>
+                            <state key="normal" title="好友">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="X23-hc-RMm"/>
+                                </mask>
+                            </variation>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.88685684970000001" green="0.88685684970000001" blue="0.88685684970000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="g1W-71-oMo" firstAttribute="leading" secondItem="5EU-kV-XqG" secondAttribute="leading" constant="1" id="6DS-SO-yBK"/>
+                        <constraint firstItem="g1W-71-oMo" firstAttribute="centerY" secondItem="5EU-kV-XqG" secondAttribute="centerY" id="BQO-at-2oS"/>
+                        <constraint firstItem="ifD-Pe-kzu" firstAttribute="leading" secondItem="SCz-DS-KCh" secondAttribute="trailing" constant="1" id="D8p-uh-rpi"/>
+                        <constraint firstItem="SCz-DS-KCh" firstAttribute="centerY" secondItem="5EU-kV-XqG" secondAttribute="centerY" id="PbE-zP-d47"/>
+                        <constraint firstItem="ifD-Pe-kzu" firstAttribute="centerY" secondItem="5EU-kV-XqG" secondAttribute="centerY" id="ZPk-dU-x0m"/>
+                        <constraint firstItem="g1W-71-oMo" firstAttribute="top" secondItem="5EU-kV-XqG" secondAttribute="top" id="jOg-nL-0na"/>
+                        <constraint firstItem="SCz-DS-KCh" firstAttribute="leading" secondItem="g1W-71-oMo" secondAttribute="trailing" constant="1" id="lEv-Fk-N7G"/>
+                        <constraint firstAttribute="trailing" secondItem="ifD-Pe-kzu" secondAttribute="trailing" constant="1" id="noB-3x-CKu"/>
+                        <constraint firstItem="ifD-Pe-kzu" firstAttribute="width" secondItem="g1W-71-oMo" secondAttribute="width" id="opz-gO-6aQ"/>
+                        <constraint firstItem="SCz-DS-KCh" firstAttribute="width" secondItem="g1W-71-oMo" secondAttribute="width" id="z0u-8l-T1q"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="5EU-kV-XqG" firstAttribute="top" secondItem="vMD-82-vqD" secondAttribute="top" id="5W7-Iw-k93"/>
+                <constraint firstAttribute="bottom" secondItem="5EU-kV-XqG" secondAttribute="bottom" id="9dd-n1-VvK"/>
+                <constraint firstAttribute="trailing" secondItem="5EU-kV-XqG" secondAttribute="trailing" id="Hy8-el-Qvs"/>
+                <constraint firstItem="5EU-kV-XqG" firstAttribute="leading" secondItem="vMD-82-vqD" secondAttribute="leading" id="pgM-q4-JEW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnChat" destination="ifD-Pe-kzu" id="5iY-N6-n8q"/>
+                <outlet property="btnFriend" destination="SCz-DS-KCh" id="EZ3-0Z-K4T"/>
+                <outlet property="btnQun" destination="g1W-71-oMo" id="zPS-4X-OM4"/>
+            </connections>
+            <point key="canvasLocation" x="170.5" y="237"/>
+        </view>
+    </objects>
+</document>
